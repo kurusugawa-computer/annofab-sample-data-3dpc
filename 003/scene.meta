@@ -1,0 +1,72 @@
+{
+    "id_list": [
+        "003-0",
+        "003-10"
+    ],
+    "serieses": [
+        {
+            "velodyne_dir": "velodyne",
+            "type": "kitti_velodyne"
+        },
+        {
+            "image_dir": "image-front_camera",
+            "calib_dir": "calib-front_camera",
+            "camera_view_setting": {
+                "fov": 0.9150703036021408,
+                "direction": 1.578262648761052,
+                "position": {
+                    "x": 0.0035095789943160177,
+                    "y": 0.35610475139472475,
+                    "z": 1.806634165572625
+                }
+            },
+            "type": "kitti_image",
+            "file_extension": "jpg"
+        },
+        {
+            "image_dir": "image-left_camera",
+            "calib_dir": "calib-left_camera",
+            "camera_view_setting": {
+                "fov": 1.6344922117284661,
+                "direction": 3.1717749691354644,
+                "position": {
+                    "x": -0.5298764343956138,
+                    "y": -0.25587715675237316,
+                    "z": 1.5754530533248814
+                }
+            },
+            "type": "kitti_image",
+            "file_extension": "jpg"
+        },
+        {
+            "image_dir": "image-right_camera",
+            "calib_dir": "calib-right_camera",
+            "camera_view_setting": {
+                "fov": 1.5949014540329272,
+                "direction": 0.027731477378349245,
+                "position": {
+                    "x": 0.6970716546058586,
+                    "y": 0.41036604526037684,
+                    "z": 1.5510742339745485
+                }
+            },
+            "type": "kitti_image",
+            "file_extension": "jpg"
+        },
+        {
+            "image_dir": "image-back_camera",
+            "calib_dir": "calib-back_camera",
+            "camera_view_setting": {
+                "fov": 1.5303659924320725,
+                "direction": -1.53749740115647,
+                "position": {
+                    "x": 0.04168388020917324,
+                    "y": -1.244396051837134,
+                    "z": 1.6377737199102624
+                }
+            },
+            "type": "kitti_image",
+            "file_extension": "jpg"
+        }
+    ]
+}
