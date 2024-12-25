@@ -21,7 +21,8 @@
                 }
             },
             "type": "kitti_image",
-            "file_extension": "jpg"
+            "file_extension": "jpg",
+            "display_name": "front_camera"
         },
         {
             "image_dir": "image-left_camera",
@@ -36,7 +37,8 @@
                 }
             },
             "type": "kitti_image",
-            "file_extension": "jpg"
+            "file_extension": "jpg",
+            "display_name": "left_camera"
         },
         {
             "image_dir": "image-right_camera",
@@ -51,7 +53,8 @@
                 }
             },
             "type": "kitti_image",
-            "file_extension": "jpg"
+            "file_extension": "jpg",
+            "display_name": "right_camera"
         },
         {
             "image_dir": "image-back_camera",
@@ -66,7 +69,8 @@
                 }
             },
             "type": "kitti_image",
-            "file_extension": "jpg"
+            "file_extension": "jpg",
+            "display_name": "back_camera"
         }
     ]
 }
